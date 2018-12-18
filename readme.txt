@@ -1,0 +1,5 @@
+Bamazon is a simple simulation of an Amazon or eBay style store website. With it you can pretend to buy items and the stock quantity of the items will update depending on how many of the item you buy. The total cost of the purchase will also be calcuated.
+
+To use this, open Git Bash and add inquirer and mysql. You will need to update the mysql password in the bamazonCustomer.js file. To begin the program, type "node bamazoncustomer" in Git Bash. You will see a list of items and it will prompt you which item you wish to buy. Type the corresponding ID number to the item. It will then display the details of the item and ask you how many of the item you want to buy. It will calculate the total cost of purchase based off the price of the item you bought and the quantity.
+
+Bugs: the error will not display if the purchase amount is too large compared to the stock quantity. This may be a scoping error as I have a if statement that declares what should happen if this occurs.
